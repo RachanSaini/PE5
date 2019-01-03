@@ -55,16 +55,13 @@ public class ArrayListUpdateTest{
     @Test
     public void deleteArrayListTest(){
         ArrayList<String> inputArrayList = new ArrayList<>();
-        inputArrayList.add("Apple");
-        inputArrayList.add("Grape");
-        inputArrayList.add("Melon");
-        inputArrayList.add("Berry");
+        
 
-        ArrayList<String> expectedDeletedArrayList = new ArrayList<>();
+
 
         ArrayList<String> actualArrayList = arrayListObject.deleteArrayList(inputArrayList);
 
-        assertEquals(expectedDeletedArrayList,actualArrayList);
+        assertNull(actualArrayList);
 
 
     }
