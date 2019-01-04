@@ -39,13 +39,5 @@ public class StringToMap3Test {
 
     }
 
-    @Test
-    public void nullStringToMap() {
-        String[] inputString = {""};
 
-
-        Map<String,Boolean> actualMap = object.stringToMap(inputString);
-        assertNull(actualMap);
-
-    }
 }

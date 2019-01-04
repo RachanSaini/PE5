@@ -53,14 +53,6 @@ public class MappingStringTest {
 
     }
 
-    @Test
-    public void nullCountMapTest2(){
-        String inputString ="";
 
-        Map<String,Integer> actualMap = object.countMap(inputString);
-        assertNull(actualMap);
-
-
-    }
 
 }
